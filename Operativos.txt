@@ -1,0 +1,47 @@
+package clases;
+
+
+public class Operativos extends Empleados {
+  
+    String CursosRealizados;
+    String UbicacionTrabajo;
+    String OficioPlanta;
+    String Labores;
+	
+    void NoTecnicos() {
+    	
+    	System.out.println("La zona 3 es el lugar de trabajo");
+    	System.out.println("mantener aceitadas las maquinas, con buena higiene y mantener las temperaturas lo mas bajas posibles ");
+    	System.out.println("tareas basicas de limpieza de la planta");
+    	
+    }
+    
+    void Tecnicos() {
+    	
+    	System.out.println("La zona 2 es el lugar de trabajo");
+    	System.out.println("mantener aceitadas las maquinas, con buena higiene y mantener las temperaturas lo mas bajas posibles ");
+    	System.out.println("mantenimiento maquinas");
+    }
+    
+    void CursosRealizados() {
+    	
+    	System.out.println("6 cursos realizados");
+    	
+    }
+    
+    void UbicacionTrabajo() {
+    	
+    	System.out.println("piso 7 sala 102");
+    	
+    }
+    
+    void OficioPlanta() {
+    	
+    	System.out.println("mantenimiento de maquinas");
+    	
+    }
+    void Labores() {
+    	
+    	System.out.println("mantener aceitadas las maquinas, con buena higiene y mantener las temperaturas lo mas bajas posibles ");
+    	
+    }

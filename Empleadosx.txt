@@ -1,0 +1,28 @@
+package clases;
+
+import javax.swing.JOptionPane;
+public class Empleados {
+	
+	int cedula;
+	String nombre;
+	String direcion;
+	int celular;
+	String correo;
+	int salario;
+	int fechaIngreso;
+	int Cumpleaños;
+		
+		public void informacion() {
+			
+			 cedula =Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+			 nombre = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+			 direcion = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+			 celular = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+			 correo = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+			 salario = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+			 fechaIngreso = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+			 Cumpleaños = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+		
+	}
+
+}

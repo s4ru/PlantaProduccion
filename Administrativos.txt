@@ -1,0 +1,21 @@
+package clases;
+
+import javax.swing.JOptionPane;
+
+public class Administrativos extends Empleados{	
+
+	String Titulos;
+	int AñosExperiencia;
+	int PersonasCargo;
+	int NumeroExtension;
+
+	public void RegistroAdmin() {
+		
+		 Titulos =Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+		 AñosExperiencia = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+		 PersonasCargo = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+		 NumeroExtension = Integer.parseInt(JOptionPane.showInputDialog("Digite su cedula"));
+		 
+		
+	}
+}

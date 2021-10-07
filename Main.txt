@@ -1,0 +1,70 @@
+package clases;
+import java.util.Scanner;
+
+public class Main {
+	
+	
+		
+  static int OpcionUsuario =-1;
+  static Scanner scanner = new Scanner(System.in);
+	public Main(String[] args) {
+		Empleados emp = new Empleados();
+		Operativos oper = new Operativos();
+		Administrativos admin = new Administrativos();
+		
+		while(OpcionUsuario !=0)
+		{
+			try {
+				 System.out.println("*   PLANTA DE PRODUCCION *\n");
+	             System.out.println("     .:: MENU PRINCIPAL ::.   \n");
+	             System.out.println("1. Empleados.                  ");
+	             System.out.println("2. Operativos.                  ");
+	             System.out.println("3. Administrativos.             ");            
+	             System.out.println("4. Tecnicos.                    ");
+	             System.out.println("5. No Tecnicos.                 ");
+	             System.out.println("0. Salir                      \n");
+	             System.out.print("Señor usuario, elige opción: _    ");
+	             OpcionUsuario = Integer.parseInt(scanner.nextLine()); 	
+				
+	             switch(OpcionUsuario)
+	                {
+	                    case 1:
+	                    	emp.informacion();
+                            break;
+	                    case 2:
+	                    	oper.CursosRealizados();
+	                    	oper.UbicacionTrabajo();
+	                    	oper.OficioPlanta();
+	                    	oper.Labores();
+	                        break;
+	                    case 3:
+	                    	admin.RegistroAdmin();
+	                        break;
+	                    case 4: 
+	                        oper.Tecnicos();
+	                        break;
+	                    case 5: 
+	                        oper.NoTecnicos();
+	                        break;
+	                    case 0: 
+	                        System.out.println("Adios!");
+	                        break;
+	                    default:
+	                        System.out.println("Opción no reconocida");break;
+	                }
+	                System.out.println("\n"); 
+	            }
+	            catch(Exception e){
+				
+				
+			}
+			
+		}
+						
+			
+		}
+		
+		
+		
+		
+		}
